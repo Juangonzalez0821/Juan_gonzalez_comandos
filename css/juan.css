@@ -1,0 +1,198 @@
+#intro {
+    color: rgb(0, 0, 0);
+    background-color: red;
+}
+.first {font-size: 200%;
+    color: red;
+    background-color: royalblue;
+}
+#intro .first em {
+    color: rgb(15, 15, 15);
+    background-color: rgb(0, 255, 85);
+}
+p {
+    color:blue;
+    background-color:rgb(255, 255, 255);   
+}
+
+h1 {
+    font-size: 20px;
+}
+
+/* siempre toca poner mas de una fuente por si una falla quede la otra o por si el navegador no tienen cierta fuente pueda cargar la siguiente */
+p.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+p.sansserif {
+    font-family: Helvetica, Arial, sans-serif;
+}
+p.monospace {
+    font-family: "Courier New", Courier, monospace;
+}
+p.cursive {
+    font-family: Florence, cursive;
+}
+p.fantasy {
+    font-family: Blippo, fantasy;
+}
+p.small {
+    font-size: small;
+}
+p.medium {
+    font-size: medium;
+}
+p.large {
+    font-size: large;
+}
+p.xlarge {
+    font-size: x-large;
+}
+p.italic {
+    font-style: italic;
+}
+p.normal {
+    font-style: normal;
+}
+p.italic {
+    font-style: italic
+}
+p.oblique {
+    font-style: oblique;
+}
+p.light {
+    font-weight: lighter;
+}
+p.bold {
+    font-weight: bold;
+}
+p.bolder {
+    font-weight: bolder;
+}
+p.light {
+    font-weight: lighter;
+}
+p.bold {
+    font-weight: bold;
+}
+p.thicker {
+    font-weight: 700;
+}
+p.normal {
+    font-variant: normal;
+}
+p.small {
+    font-variant: small-caps;
+}
+p.example {
+    color: green;
+}
+h1 {
+    color:0000FF;
+}
+p.example{
+    color: rgb(255, 0, 0);
+}
+p.left {
+    text-align: left;
+}
+p.right {
+    text-align: right;
+}
+p.center{
+    text-align: center;
+}
+td.top{
+    vertical-align: top;
+}
+td.middle {
+    vertical-align: middle;
+}
+td.bottom {
+    vertical-align: bottom;
+}
+span.baseline {
+    vertical-align: baseline;
+}
+span.sub {
+    vertical-align: sub;
+}
+span.super {
+    vertical-align: super;
+}
+span.pixel {
+    vertical-align: -10px;
+}
+/*  */
+p{ 
+    color: rgb(0, 0, 0);
+    /* para los comentarios */
+    font-size: 120%;
+}
+/* para los comentarios */
+.main {
+    height: 150px; width: 400px;
+    background-color: lightskyblue;
+    display: inline-table;
+}
+.paragraph {
+    display: table-cell;
+    vertical-align: middle;
+}
+/*  */
+p.none {
+    text-decoration: none;
+}
+p.inherit {
+    text-decoration: inherit;
+}
+p.underline{
+    text-decoration: underline;
+}
+p.overline {
+    text-decoration: overline;
+}
+p.line-through {
+    text-decoration: line-through;
+}
+/*  */
+p {
+    text-indent: 60px;
+}
+/*  */
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 30pt;
+    text-shadow: 5px 2px 4px rgb(0, 255, 242);
+}
+/*  */
+h2 {
+    color: black;
+    font-size: 20pt;
+    text-shadow: rgb(0, 255, 242) -1px -2px 0.5em;
+    font-size: 1.25em;
+}
+/*  */
+p.capitalize {
+    text-transform: capitalize;
+}
+/*  */
+p.uppercase {
+    text-transform:uppercase ;
+}
+p.lowercase {
+    text-transform: lowercase;
+}
+/*  */
+p.normal {
+    letter-spacing: normal;
+}
+p.positive {
+    letter-spacing: 4px;
+}
+/*  */
+p.positive {
+    letter-spacing: 4px;
+}
+p.negative {
+    letter-spacing: -1.5px;
+}
