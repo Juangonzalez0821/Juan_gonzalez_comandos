@@ -196,3 +196,31 @@ p.positive {
 p.negative {
     letter-spacing: -1.5px;
 }
+/*  */
+p.normal {
+    word-spacing: normal;
+}
+p.px {
+    word-spacing: 30px;
+}
+/*  */
+p.positive {
+    word-spacing: 20px;
+}
+p.negative {
+    word-spacing: -5px;
+}
+/*  */
+p{
+    white-space: nowrap;
+}
+/*  */
+p.pre {
+    white-space: pre;
+}
+p.preline {
+    white-space: pre-line;
+}
+p.prewrap {
+    white-space: pre-wrap;
+}
