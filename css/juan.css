@@ -280,7 +280,7 @@ h1 {
     background-color: #c0c0c0;
 }
 p {
-    background-color: rgb(230, 107, 255);
+    background-color: rgba(245, 158, 198, 0.993);
 }
 /*  */
 /* body {
@@ -378,4 +378,175 @@ a:hover {
 /*  */
 a:link {
     text-decoration: none;
+}
+/*  */
+span {
+    display: block;
+}
+/*  */
+/* p {
+    display: inline;
+} */
+/*  */
+h1 {
+    display: none;
+}
+/*  */
+/* div.hidden {
+    visibility: hidden;
+} */
+/* div.hidden{
+    display: none;
+} */
+p.position_static {
+    position:static;
+    top: 30px;
+    right: 5px;
+    color: rgb(21, 255, 0);
+}
+/*  */
+/* p.position_fixed {
+    position:fixed;
+    top: 30px;
+    right: 5px;
+    color: red;
+} */
+/*  */
+/* p {
+    width:350px;
+    border: 1px black solid;
+    position: fixed;
+} */
+/*  */
+/* span {
+    background:green;
+    color:white;
+    position: relative;
+    top: 150px;
+    left: 50px
+} */
+/* img {
+    float:right
+} */
+/* img { 
+    float: left;
+    width: 120px;
+    margin-right: 10px;
+}
+p{
+    width: 120px;
+    float: left;
+} */
+.floating {
+    float: right;
+}
+
+.floating {
+    float: right;
+}
+.clearing {
+    clear: both;
+}
+/* div {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    float: left;
+} */
+div {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    float: left;
+    overflow: scroll;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    float: left;
+    overflow: hidden;
+}
+/*  */
+.blue {
+    background-color: #8EC4D0;
+    margin-bottom:15px;
+    width: 120px;
+    height: 120px;
+    color: #FFF;
+}
+.red {
+    background-color: #FF4D4D;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    color: #FFF;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+blue {
+    z-index: 3;
+    position: relative;
+}
+.red {
+    z-index: 2;
+    position: relative;
+}
+/* ::-webkit-border-radius:24px;
+::-moz-border-radius:8px */
+p{
+border-radius: 20px;
+background-color:rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+}
+
+/* div {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: green;
+    color: white;
+} */
+
+div {
+    width: 300px;
+    height: 100px;
+    background-color: #9ACD32;
+    box-shadow: 10px 10px 5px 5px #888888;
+    /* box-shadow:inset  10px 10px 5px 5px #888888; */
+}
+/* div {
+box-shadow:
+10px 10px 5px 5px #888888,
+inset 10px 10px 5px  #888888,
+inset -10px -10px 5px #5ee687;
+} */
+
+/* body {
+    background:url("Captura.PNG");
+} */
+nav{
+    padding: 50px 0;
+    min-width: 500px;
+}
+nav ul {
+    background: linear-gradient(90deg,
+    rgba(255.255,255,0) 0%,
+    rgba(255.255,255,0.2) 25%,
+    rgba(255.255,255,0.2) 75%,
+    rgba(255.255,255,0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0,1),
+    inset 0 0 1px rgba(255, 255, 255, 0,6);
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
 }
