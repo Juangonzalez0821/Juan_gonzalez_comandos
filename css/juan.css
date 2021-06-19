@@ -11,7 +11,7 @@
     background-color: rgb(0, 255, 85);
 }
 p {
-    color:blue;
+    color:rgb(255, 0, 0);
     background-color:rgb(255, 255, 255);   
 }
 
@@ -124,7 +124,7 @@ span.pixel {
 }
 /*  */
 p{ 
-    color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
     /* para los comentarios */
     font-size: 120%;
 }
@@ -273,7 +273,7 @@ p.second {
 }
 /*  */
 body {
-    background-color:aqua;
+    background-color:rgb(255, 255, 255);
 }
 /*  */
 h1 {
@@ -283,7 +283,99 @@ p {
     background-color: rgb(230, 107, 255);
 }
 /*  */
-body {
+/* body {
     background-image:url(Captura.PNG);
-    background-color:aqua;
+    background-color:rgb(255, 255, 255);
+} */
+/*  */
+/* p {
+    padding: 30px;
+    background-image: url(1Captura.PNG);
+    color: white;
+} */
+/* body {
+    background-image: url(Captura.PNG);
+    background-repeat: repeat-x;
+} */
+/* body {
+    background-image: url(captura.png);
+    background-repeat: repeat-x;
+}
+p {
+    background-image: url(1captura);
+    background-repeat: inherit;
+    margin-top: 100px;
+    padding: 40px;
+} */
+/* body {
+    background-image: url(captura.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+/* body { 
+    background-image: url("captura.png");
+    background-repeat: no repeat;
+    background-attachment: scroll;
+} */
+/*  */
+ol.lower-alpha {
+    list-style-type: lower-alpha;
+}
+ul.circle {
+    list-style-type: circle;
+}
+ul.square {
+    list-style-type: square;
+}
+/*  */
+ul {
+    list-style-image: url("Captura.PNG");
+    list-style-position: inside;
+}
+/*  */
+ol {
+    list-style: square outside none;
+ }
+
+ /* ul {
+    list-style-type: square;
+    list-style-position: outside;
+    list-style-image: none
+} */
+/*  */
+table {
+    border-collapse:separate;
+    border-spacing: 20px 40px;
+}
+/*  */
+caption {
+    caption-side: top;
+}
+/*  */
+table {
+    border-collapse: separate;
+    empty-cells: hide;
+}
+/*  */
+table {
+    border-collapse: separate;
+    width: 100%;
+    border: 1px solid gray;
+}
+td {
+    border: 1px solid gray;
+}
+table.auto {
+    table-layout:fixed;
+}
+table.fixed {
+table-layout:fixed;
+}
+/*  */
+a:hover {
+    color: red;
+}
+/*  */
+a:link {
+    text-decoration: none;
 }
