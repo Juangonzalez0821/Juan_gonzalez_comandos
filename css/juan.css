@@ -550,3 +550,213 @@ nav ul li a {
     text-decoration: none;
     display: block;
 }
+/*  */
+h1 {
+    text-shadow: 5px 10px 2px #93968f,
+    -3px 6px 5px #58d1e3;
+}
+#parent p:firts-child {
+    color: green;
+    text-decoration: underline;
+}
+
+#parent p:last-child {
+    color: green;
+    text-decoration: underline;
+}
+
+
+::first-line {
+    color: #589432;
+}
+
+p::-moz-selection {
+    background: #8bc34a;
+    color: #fff;
+}
+::before {
+    content: url("Captura.PNG");
+}
+
+
+p {
+    width: 210px;
+    height: 100px;
+    border: 1px solid #000000;
+    word-wrap: normal;
+}
+
+
+@font-face {
+    font-family: Delicious; 
+    src: url('Delicious-Roman.otf'); 
+  } 
+  @font-face { 
+    font-family: Delicious; 
+    font-weight: bold; 
+    src: url('Delicious-Bold.otf'); 
+  }
+  h1{
+     font-family: Delicious, sans-serif; 
+  }
+
+  @font-face { 
+    font-family: Delicious; 
+    src: url('Delicious-Roman.ttf');
+    src: url('Delicious-Roman.eot?#iefix'); 
+ }
+
+ div {
+    float: left;
+    width: 300px;
+    height:100px;
+    margin: 4px;
+    color: #FFF;
+    background:-moz-linear-gradient(deepSkyBlue, Black);
+}
+
+/* background:-moz-linear-gradient(blue,
+yellow, green , pink, white);
+
+background:-moz-linear-gradient(blue 20%,
+yellow 30%, green 85%); */
+
+div.first {
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin: 4px;
+    color: #FFF;
+    BACKGROUND:-moz-linear-gradient(left,
+    blue,green, white);
+}
+div.second {
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin: 4px;
+    background:-moz-linear-gradient(bottom,blue,green,white);
+}
+
+
+div.first {
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin: 4px;
+    color:#FFF;
+    background:-moz-linear-gradient(bottom left,blue,green,white);
+}
+
+div.second {
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin: 4px;
+    background:-moz-linear-gradient(100deg,blue,green,white);
+}
+
+/* background:-moz-linear-gradient(blue,green,20px) */
+
+
+/* background: radial-gradient(position, shape or size, color-stops); */
+
+div.first {
+    height: 150px;
+    width: 200px;
+    color: #FFF;
+    background: -moz-radial-gradient(green,yellow,blue);
+}
+div.second {
+    height: 150px;
+    width: 200px;
+    color:#FFF;
+    background: -moz-radial-gradient(circle,green,yellow,blue);
+}
+
+div.first {
+    height: 150px;
+    width: 200px;
+    color: #FFF;
+    background: -moz-radial-gradient(top left, green,yellow,blue);
+}
+div.second {
+    height: 150px;
+    width: 200px;
+    color: #FFF;
+    background: -moz-radial-gradient(top left,green 5% yellow 15% blue 60%);
+}
+
+/* background: -moz-radial-gradient(circle,green 40%,yellow 50%,blue 70%); */
+
+div {
+    height: 150px;
+    width: 200px;
+    border: 1px solid #000;
+    background: url("css_logo.png")no-repeat 50% 50%;
+    background-size: 100px 100px;
+}
+
+/* background-size:contain; */
+
+/* background-size:cover; */
+
+#first {
+    border: 2px dotted black;
+    padding: 20px;
+    background: lightblue;
+    background-clip: padding-box;
+}
+#second {
+    border: 2px dotted black;
+    padding: 20px;
+    background: lightblue;
+    background-clip: content-box;
+}
+
+div {
+    background-image: url("css-logo.png");
+    background-clip: content-box;
+}
+/* 
+border: 20px solid rgba(0, 0, 0, 0,3); */
+
+/* border: 20px solid rgba(0, 0, 0, 0.3);
+-moz-background-clip: padding-box;
+background-clips: padding-box; */
+
+div {
+    width: 400px;
+    height: 300px;
+    background-image: url(Captura.PNG),
+    url(Captura.PNG);
+    background-position: right bottom,left top;
+    background-repeat: no-repeat;
+}
+
+div {
+    width: 400px;
+    height: 300px;
+    background-image: url(Captura.PNG),
+    url(Captura.PNG);
+    background-position: right top, left top;
+    background-repeat: no-repeat;
+}
+
+/* background: url(csslogo.png) right top no-repeat,
+url(csscode.jpg) left top no-repeat; */
+
+#img1 {
+    opacity: 1;
+}
+#img2 {
+    opacity: 0.5;
+}
+#img3{
+    opacity: 0.25;
+}
+
+#img {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
